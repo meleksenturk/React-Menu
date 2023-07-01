@@ -1,0 +1,46 @@
+.menu-item{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 2px solid rgb(255, 248, 248);
+    margin-right: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+ 
+}
+
+.menu-item img{
+    object-fit: cover;
+}
+
+.item-title-price {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemTitle{
+    font-family: cursive;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.itemPrice{
+    font-family: cursive;
+    background-color: rgb(244, 168, 93);
+    font-size: medium;
+    border: none;
+    border-radius: 3px ;
+    padding: 2px;
+}
+
+.card-desc{
+    margin-top: 20px;
+    color: black;
+    font-weight: 300;
+    width: 350px; 
+}
+
+.mainDiv{
+    padding: 10px;
+}
